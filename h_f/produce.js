@@ -11,7 +11,7 @@ h_f_config.forEach(function(value){
 
 	if ( "haiiro" in value ){
 		var haiiro = 'class="haiiro"';
-		value["favo"] = "https://cat.yunet.work/public/h_f/jichen.png"
+		value["favo"] = "https://9yu.github.io/public/h_f/jichen.png"
 	} else {
 		var haiiro = "";
 	}
@@ -25,7 +25,7 @@ h_f_config.forEach(function(value){
 	}
 
 	var h_f_list_index = "" + value["naka"] + Math.floor(Math.random() * (9999 - 1000) + 1000);;
-	h_f_list[h_f_list_index] = '<li '+ haiiro +'><img src="' + value["favo"] + '" onerror="this.src=\'https://cat.yunet.work/public/h_f/xiaopo.png\';this.className=\'lite\'"><div>' + mark_s + '<span>' + value["name"] + '</span>' + mark_e + '<a href="http://' + value["url"] + '" target="_h_f">' + value["url"] + '</a></div></li>';
+	h_f_list[h_f_list_index] = '<li '+ haiiro +'><img src="' + value["favo"] + '" onerror="this.src=\'https://9yu.github.io/public/h_f/xiaopo.png\';this.className=\'lite\'"><div>' + mark_s + '<span>' + value["name"] + '</span>' + mark_e + '<a href="http://' + value["url"] + '" target="_h_f">' + value["url"] + '</a></div></li>';
 });
 
 function pr_hf(){
